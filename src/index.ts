@@ -20,7 +20,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://backend-blog-navy.vercel.app"],
+      "https://fontend-blog.vercel.app"],
     methods: ["GET", "POST", "PUT", "DELETE"] // optional
   })
 )
